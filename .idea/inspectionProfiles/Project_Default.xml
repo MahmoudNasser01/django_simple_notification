@@ -1,0 +1,124 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="93">
+            <item index="0" class="java.lang.String" itemvalue="coverage" />
+            <item index="1" class="java.lang.String" itemvalue="protobuf" />
+            <item index="2" class="java.lang.String" itemvalue="factory-boy" />
+            <item index="3" class="java.lang.String" itemvalue="googleapis-common-protos" />
+            <item index="4" class="java.lang.String" itemvalue="python-utils" />
+            <item index="5" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="6" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="7" class="java.lang.String" itemvalue="py" />
+            <item index="8" class="java.lang.String" itemvalue="setuptools" />
+            <item index="9" class="java.lang.String" itemvalue="bcrypt" />
+            <item index="10" class="java.lang.String" itemvalue="social-auth-core" />
+            <item index="11" class="java.lang.String" itemvalue="paramiko" />
+            <item index="12" class="java.lang.String" itemvalue="Faker" />
+            <item index="13" class="java.lang.String" itemvalue="install" />
+            <item index="14" class="java.lang.String" itemvalue="charset-normalizer" />
+            <item index="15" class="java.lang.String" itemvalue="prompt-toolkit" />
+            <item index="16" class="java.lang.String" itemvalue="google-cloud-core" />
+            <item index="17" class="java.lang.String" itemvalue="google-api-core" />
+            <item index="18" class="java.lang.String" itemvalue="google-cloud-vision" />
+            <item index="19" class="java.lang.String" itemvalue="grpcio-status" />
+            <item index="20" class="java.lang.String" itemvalue="grpcio" />
+            <item index="21" class="java.lang.String" itemvalue="pusher" />
+            <item index="22" class="java.lang.String" itemvalue="pytest-django" />
+            <item index="23" class="java.lang.String" itemvalue="django-rest-framework-social-oauth2" />
+            <item index="24" class="java.lang.String" itemvalue="ndg-httpsclient" />
+            <item index="25" class="java.lang.String" itemvalue="markuppy" />
+            <item index="26" class="java.lang.String" itemvalue="redis" />
+            <item index="27" class="java.lang.String" itemvalue="coreschema" />
+            <item index="28" class="java.lang.String" itemvalue="djangorestframework-simplejwt" />
+            <item index="29" class="java.lang.String" itemvalue="certifi" />
+            <item index="30" class="java.lang.String" itemvalue="django-braces" />
+            <item index="31" class="java.lang.String" itemvalue="moviepy" />
+            <item index="32" class="java.lang.String" itemvalue="xlrd" />
+            <item index="33" class="java.lang.String" itemvalue="google-cloud-speech" />
+            <item index="34" class="java.lang.String" itemvalue="google-cloud-videointelligence" />
+            <item index="35" class="java.lang.String" itemvalue="django-oauth-toolkit" />
+            <item index="36" class="java.lang.String" itemvalue="openfoodfacts" />
+            <item index="37" class="java.lang.String" itemvalue="proglog" />
+            <item index="38" class="java.lang.String" itemvalue="iniconfig" />
+            <item index="39" class="java.lang.String" itemvalue="django-import-export" />
+            <item index="40" class="java.lang.String" itemvalue="pydub" />
+            <item index="41" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="42" class="java.lang.String" itemvalue="python3-openid" />
+            <item index="43" class="java.lang.String" itemvalue="pyyaml" />
+            <item index="44" class="java.lang.String" itemvalue="odfpy" />
+            <item index="45" class="java.lang.String" itemvalue="django-autoslug" />
+            <item index="46" class="java.lang.String" itemvalue="django-filter" />
+            <item index="47" class="java.lang.String" itemvalue="python-social-auth" />
+            <item index="48" class="java.lang.String" itemvalue="mixer" />
+            <item index="49" class="java.lang.String" itemvalue="geopy" />
+            <item index="50" class="java.lang.String" itemvalue="decorator" />
+            <item index="51" class="java.lang.String" itemvalue="fcm-django" />
+            <item index="52" class="java.lang.String" itemvalue="django-ckeditor" />
+            <item index="53" class="java.lang.String" itemvalue="django-rest-passwordreset" />
+            <item index="54" class="java.lang.String" itemvalue="pyfcm" />
+            <item index="55" class="java.lang.String" itemvalue="django-stdimage" />
+            <item index="56" class="java.lang.String" itemvalue="pysafebrowsing" />
+            <item index="57" class="java.lang.String" itemvalue="wcwidth" />
+            <item index="58" class="java.lang.String" itemvalue="google-cloud-storage" />
+            <item index="59" class="java.lang.String" itemvalue="django-storages" />
+            <item index="60" class="java.lang.String" itemvalue="drf-yasg" />
+            <item index="61" class="java.lang.String" itemvalue="cloudinary" />
+            <item index="62" class="java.lang.String" itemvalue="speechrecognition" />
+            <item index="63" class="java.lang.String" itemvalue="celery" />
+            <item index="64" class="java.lang.String" itemvalue="pytest-cov" />
+            <item index="65" class="java.lang.String" itemvalue="freezegun" />
+            <item index="66" class="java.lang.String" itemvalue="geographiclib" />
+            <item index="67" class="java.lang.String" itemvalue="google-search-results" />
+            <item index="68" class="java.lang.String" itemvalue="googlemaps" />
+            <item index="69" class="java.lang.String" itemvalue="google-cloud-translate" />
+            <item index="70" class="java.lang.String" itemvalue="language-data" />
+            <item index="71" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="72" class="java.lang.String" itemvalue="django-cors-headers" />
+            <item index="73" class="java.lang.String" itemvalue="billiard" />
+            <item index="74" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="75" class="java.lang.String" itemvalue="pytest" />
+            <item index="76" class="java.lang.String" itemvalue="pytesseract" />
+            <item index="77" class="java.lang.String" itemvalue="google-cloud" />
+            <item index="78" class="java.lang.String" itemvalue="xlwt" />
+            <item index="79" class="java.lang.String" itemvalue="langcodes" />
+            <item index="80" class="java.lang.String" itemvalue="fabric3" />
+            <item index="81" class="java.lang.String" itemvalue="coreapi" />
+            <item index="82" class="java.lang.String" itemvalue="django" />
+            <item index="83" class="java.lang.String" itemvalue="speech" />
+            <item index="84" class="java.lang.String" itemvalue="itypes" />
+            <item index="85" class="java.lang.String" itemvalue="pillow" />
+            <item index="86" class="java.lang.String" itemvalue="click-repl" />
+            <item index="87" class="java.lang.String" itemvalue="pytz" />
+            <item index="88" class="java.lang.String" itemvalue="click-plugins" />
+            <item index="89" class="java.lang.String" itemvalue="geoip2" />
+            <item index="90" class="java.lang.String" itemvalue="openpyxl" />
+            <item index="91" class="java.lang.String" itemvalue="Django" />
+            <item index="92" class="java.lang.String" itemvalue="django_import_export" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="googleapiclient.fleetengine" />
+          <option value="object.save" />
+          <option value="int.now" />
+          <option value="str.value" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
