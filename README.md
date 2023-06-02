@@ -32,10 +32,17 @@ type: is a notification tag (you should create difrrent types in your system for
 ``notifications/unread/``:GET: get all unread notifications
 
 ![img_2.png](read_me_media/img_2.png)
+
+## 3.how the client side recieve the message from the server via websocket
+![img.png](read_me_media/img.png)
+
+
 # configration
 
 Note: make sure that django chanels is up and runnnig and also you django serves under ASGI
 
+
+in ``settings.py``
 ``` python
 INSTALLED_APPS = [
     ...
@@ -57,8 +64,15 @@ SIMPLE_NOTIFICATION_SETTINGS = {
 AUTH_USER_MODEL = "users.User"
 ```
 
+in ``urls.py``
+
 ```python
     path('api/v1/notifications/', include('notifications.urls')),
 ```
 
+run make migrate:
+
+```shell
+python manage.py migrate
+```
 
