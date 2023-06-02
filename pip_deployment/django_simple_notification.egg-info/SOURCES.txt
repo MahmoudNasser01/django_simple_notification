@@ -11,12 +11,14 @@ notifications/admin.py
 notifications/apps.py
 notifications/consumers.py
 notifications/handlers.py
-notifications/handlers_reader.py
 notifications/models.py
 notifications/serializers.py
+notifications/setup.py
 notifications/tests.py
 notifications/urls.py
 notifications/views.py
 notifications/migrations/0001_initial.py
-notifications/migrations/0002_notification_type.py
 notifications/migrations/__init__.py
+notifications/tests/__init__.py
+notifications/tests/test_models.py
+notifications/tests/test_views.py
