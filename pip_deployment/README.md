@@ -22,20 +22,26 @@ type: is a notification tag (you should create difrrent types in your system for
 
 ``notifications/all/``:GET : get all the notifications
 
-![img.png](read_me_media/img.png)
-<br/><br/><br/>
+<br/><br/>
 ``notifications/mark/``:PUT : mark all notifications as read
 
-![img_1.png](read_me_media/img_1.png)
+![img_1.png](https://github.com/MahmoudNasser01/django_simple_notification/blob/master/read_me_media/img_1.png?raw=true)
 <br/><br/><br/>
 
 ``notifications/unread/``:GET: get all unread notifications
 
-![img_2.png](read_me_media/img_2.png)
+![img_2.png](https://github.com/MahmoudNasser01/django_simple_notification/blob/master/read_me_media/img_2.png?raw=true)
+
+## 3.how the client side recieve the message from the server via websocket
+![img.png](https://github.com/MahmoudNasser01/django_simple_notification/blob/master/read_me_media/img.png?raw=true)
+
+
 # configration
 
 Note: make sure that django chanels is up and runnnig and also you django serves under ASGI
 
+
+in ``settings.py``
 ``` python
 INSTALLED_APPS = [
     ...
@@ -57,8 +63,15 @@ SIMPLE_NOTIFICATION_SETTINGS = {
 AUTH_USER_MODEL = "users.User"
 ```
 
+in ``urls.py``
+
 ```python
     path('api/v1/notifications/', include('notifications.urls')),
 ```
 
+run make migrate:
+
+```shell
+python manage.py migrate
+```
 

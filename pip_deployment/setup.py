@@ -2,13 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-simple-notification',
-    version='0.0.2',
+    version='1.0.3',
     author='Mahmoud Nasser',
     author_email='mahmoud.nasser.abdulhamed@gmail.com',
     description='Simple user notification management for the Django web framework',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/fritill-team/django_translation.git',
+    url='https://github.com/MahmoudNasser01/django_simple_notification',
     license='MIT',
     platform='any',
     keywords='django notification simple custom',

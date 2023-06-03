@@ -1,1 +1,2 @@
 recursive-include notifications/templates *.html
+recursive-include
