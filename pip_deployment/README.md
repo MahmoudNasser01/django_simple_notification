@@ -39,7 +39,7 @@ type: is a notification tag (you should create difrrent types in your system for
 # configration
 
 Note: make sure that django chanels is up and runnnig and also you django serves under ASGI
-
+check this [url](https://channels.readthedocs.io/en/stable/installation.html) to configure django channels in your project
 
 in ``settings.py``
 ``` python
@@ -59,16 +59,30 @@ SIMPLE_NOTIFICATION_SETTINGS = {
 }
 ```
 
-```python
-AUTH_USER_MODEL = "users.User"
-```
 
 in ``urls.py``
 
 ```python
-    path('api/v1/notifications/', include('notifications.urls')),
+path('api/v1/notifications/', include('notifications.urls')),
 ```
 
+in ``asgi.py``
+
+```python
+from notifications import routing
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'demo_project.settings')
+
+application = ProtocolTypeRouter({
+    'http': get_asgi_application(),
+    'websocket': AuthMiddlewareStack(
+        URLRouter(
+            routing.websocket_urlpatterns
+        )
+    ),
+})
+
+```
 run make migrate:
 
 ```shell

@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-simple-notification',
-    version='1.0.3',
+    version='1.0.4',
     author='Mahmoud Nasser',
     author_email='mahmoud.nasser.abdulhamed@gmail.com',
     description='Simple user notification management for the Django web framework',

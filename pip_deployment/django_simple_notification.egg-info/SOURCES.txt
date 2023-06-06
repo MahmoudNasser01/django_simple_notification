@@ -12,6 +12,7 @@ notifications/apps.py
 notifications/consumers.py
 notifications/handlers.py
 notifications/models.py
+notifications/routing.py
 notifications/serializers.py
 notifications/setup.py
 notifications/tests.py
