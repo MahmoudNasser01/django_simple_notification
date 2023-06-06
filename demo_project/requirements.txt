@@ -1,0 +1,4 @@
+channels==3.0.4
+Django==4.2.1
+djangorestframework==3.14.0
+
