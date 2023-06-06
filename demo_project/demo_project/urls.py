@@ -16,8 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.shortcuts import render
+
+from demo_project.app.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('notifications/', include('notifications.urls')), # new
+    path('', index, name='index'),
 ]

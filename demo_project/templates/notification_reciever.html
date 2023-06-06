@@ -20,14 +20,14 @@
         console.log("Successfully connected to the WebSocket.");
 
         notificationSocket.send(JSON.stringify({
-            "message": 'hi',
+            "message": 'hi from client side',
         }));
     }
 
     notificationSocket.onmessage = function (e) {
         let data = JSON.parse(e.data);
-
-        document.getElementById('notifications').innerHTML += '<li>' + data.message + '</li>';
+        console.log(data);
+        document.getElementById('notifications').innerHTML += '<li>' + data.data.content + '</li>';
 
     }
 
