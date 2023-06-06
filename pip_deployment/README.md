@@ -16,7 +16,7 @@ send_message(message:str, user:User, type:str)
 # logic behind it
 message: the text message to be sent to the user
 user: an instance of User model (the one who will recieve the notification)
-type: is a notification tag (you should create difrrent types in your system for different events)
+type: is a notification tag or type (you should create difrrent types in your system for different events)
 ```
 ## 2.fetch notifications using REST APIs
 
