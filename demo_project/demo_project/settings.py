@@ -70,7 +70,15 @@ TEMPLATES = [
     },
 ]
 
+
+CHANNEL_LAYERS = {
+    'default': {
+        "BACKEND": "channels.layers.InMemoryChannelLayer"
+    },
+}
+
 WSGI_APPLICATION = 'demo_project.wsgi.application'
+ASGI_APPLICATION = 'demo_project.asgi.application'
 
 
 # Database
@@ -82,6 +90,8 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+
 
 
 # Password validation

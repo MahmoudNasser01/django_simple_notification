@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notification receiver</title>
+</head>
+<body>
+
+
+<ul id="notifications">
+
+
+</ul>
+
+<script>
+    notificationSocket = new WebSocket("ws://" + window.location.host + "/ws/notifications/");
+
+
+    notificationSocket.onopen = function (e) {
+        console.log("Successfully connected to the WebSocket.");
+
+        notificationSocket.send(JSON.stringify({
+            "message": 'hi',
+        }));
+    }
+
+    notificationSocket.onmessage = function (e) {
+        let data = JSON.parse(e.data);
+
+        document.getElementById('notifications').innerHTML += '<li>' + data.message + '</li>';
+
+    }
+
+</script>
+
+
+</body>
+</html>

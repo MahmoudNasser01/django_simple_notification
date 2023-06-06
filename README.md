@@ -22,8 +22,7 @@ type: is a notification tag (you should create difrrent types in your system for
 
 ``notifications/all/``:GET : get all the notifications
 
-![img.png](read_me_media/img.png)
-<br/><br/><br/>
+<br/><br/>
 ``notifications/mark/``:PUT : mark all notifications as read
 
 ![img_1.png](read_me_media/img_1.png)
@@ -76,3 +75,7 @@ run make migrate:
 python manage.py migrate
 ```
 
+# TODOS:
+- [ ] complete the full demo project
+- [ ] complete all the docs
+- [ ] write more tests
