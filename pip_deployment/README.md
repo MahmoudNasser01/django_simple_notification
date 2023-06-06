@@ -38,7 +38,7 @@ type: is a notification tag or type (you should create difrrent types in your sy
 
 # configration
 
-Note: make sure that django chanels is up and runnnig and also you django serves under ASGI
+Note: make sure that django channels is up and running and also you django serves under ASGI
 check this [url](https://channels.readthedocs.io/en/stable/installation.html) to configure django channels in your project
 
 in ``settings.py``
