@@ -8,3 +8,6 @@ class Notification(models.Model):
     content = models.TextField()
     type = models.CharField(max_length=100, null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f'User:{self.user} / Type:{self.type}'
