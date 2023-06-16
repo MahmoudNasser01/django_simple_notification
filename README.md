@@ -53,7 +53,7 @@ INSTALLED_APPS = [
 
 
 ```python
-
+# Note: this step is optional
 SIMPLE_NOTIFICATION_SETTINGS = {
     'receive_handler_path': 'custom_module.custom_py_file.custom_receive_handler',
 }
@@ -82,6 +82,17 @@ application = ProtocolTypeRouter({
     ),
 })
 
+# or if you have other routing files you can do this
+application = ProtocolTypeRouter({
+    'http': get_asgi_application(),
+    'websocket': AuthMiddlewareStack(
+        URLRouter([
+            *routing.websocket_urlpatterns,
+            *other_routing1.websocket_urlpatterns,
+            *other_routing2.websocket_urlpatterns,
+        ])
+    ),
+})
 ```
 run make migrate:
 
