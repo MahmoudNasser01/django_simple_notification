@@ -1,3 +1,9 @@
+# install
+
+```shell
+pip install django-simple-notification
+```
+
 # Usage
 
 ## 1. create notification events
