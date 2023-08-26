@@ -22,7 +22,7 @@ send_message(message:str, user:User, type:str)
 # logic behind it
 message: the text message to be sent to the user
 user: an instance of User model (the one who will recieve the notification)
-type: is a notification tag (you should create difrrent types in your system for different events)
+type: is a notification tag (you should create different types in your system for different events)
 ```
 ## 2.fetch notifications using REST APIs
 
@@ -44,7 +44,7 @@ type: is a notification tag (you should create difrrent types in your system for
 
 # configration
 
-Note: make sure that django chanels is up and runnnig and also you django serves under ASGI
+Note: make sure that django channels is up and runnnig and also you django serves under ASGI
 check this [url](https://channels.readthedocs.io/en/stable/installation.html) to configure django channels in your project
 
 in ``settings.py``
